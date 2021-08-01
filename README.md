@@ -469,7 +469,7 @@ Build 'vsphere-iso.example' errored after 10 minutes 54 seconds: Error executing
 ==> Some builds didn't complete successfully and had errors:
 ```
 
-- Basically what's happening now is my post build testing, all part of the packer build process, has detected an error with one of the binaries that should be on this image, it's missing!!! This is exactly why we use ephemeral builds and test before we ever getting into production - it's much cheaper for businesses to make these mistakes earlier in the delivery process.
+- Basically what's happening now is my post build testing, all part of the packer build process, has detected an error with one of the binaries that should be on this image, it's missing!!! This is exactly why we use ephemeral builds and test before we ever get into production - it's much cheaper for businesses to make these mistakes earlier in the delivery process.
 
 - It looks like the envoyproxy installation process has changed since this build was last run successfully in January
 
