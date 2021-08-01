@@ -1,5 +1,5 @@
 ![coneofshame](https://user-images.githubusercontent.com/9472095/109558495-69feec80-7ad1-11eb-8d22-9adc2da049b5.jpg)
-# Avoid the `Cone of Shame` by securing application delivery pipelines from the begining
+# Avoid the `Cone of Shame` by securing application delivery pipelines from the beginning
 
 ## TL;DR
 Use HashiCorp Packer v1.7.x with the new HCL2 templates to consistently and securely build, configure and test pipeline images for the VMware ecosystem, VMware ESXi 7.x & vCentre Server Appliance 7.x. The same principles used with VMware in this example can be tweaked for other cloud platforms such as AWS, GCP, Azure, AliCloud, Oracle Cloud and Vagrant, to name a few.
